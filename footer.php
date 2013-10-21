@@ -4,7 +4,7 @@
 
 <div class="fcred">
 Copyright &copy; <?php echo date('Y');?> <a href="<?php
-bloginfo('siteurl'); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a> - <?php bloginfo('description'); ?>.<br />
+bloginfo('siteurl'); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a>
 
 </div>	
 <div class='clear'></div>	

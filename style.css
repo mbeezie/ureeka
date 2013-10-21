@@ -978,7 +978,6 @@ table#wp-calendar {
 
 .bottomcover {
     background: url(images/footer.png);
-    border-top: 10px solid #e99f3b;
     margin: 0px 0px 0px 0px;
     padding: 0px;
 }
@@ -986,7 +985,6 @@ table#wp-calendar {
 #bottom {
     width: 960px;
     margin: 0px auto;
-    border-bottom: 1px solid #333;
 }
 
 #bottom ul {
@@ -1244,7 +1242,6 @@ ol.commentlist li ul.children li.depth-2,ol.commentlist li ul.children li.depth-
 /* Footer	 */
 
 #footer {
-    border-top: 1px solid #111;
     padding: 10px 0px;
 	font-size:11px;
     background: url(images/footer.png);
@@ -1331,3 +1328,4 @@ ol.commentlist li ul.children li.depth-2,ol.commentlist li ul.children li.depth-
     -moz-border-radius: 15px;
     border-radius: 15px;
 }	
+
