@@ -11,6 +11,14 @@
 <h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>"><?php the_title(); ?></a></h2>
 </div>
 
+
+<div class="entry">
+<a class="bookshot" href="<?php get_image_url(); ?>"><img class="bookimg" src="<?php bloginfo('stylesheet_directory'); ?>/timthumb.php?src=<?php get_image_url(); ?>&amp;w=250&amp;zc=1" alt=""/></a>
+	<?php the_content('Read the rest of this entry &raquo;'); ?>
+	<div class="clear"></div>
+	<?php wp_link_pages(array('before' => '<p><strong>Pages: </strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
+</div>
+
 <div class="revbox clearfix">
 <div class="revleft">
 <span><strong>Location:</strong> <?php $writer=get_post_meta($post->ID, 'w2f_author', true); echo $writer; ?> </span>
@@ -21,12 +29,6 @@
 </div>
 </div>
 
-<div class="entry">
-<a class="bookshot" href="<?php get_image_url(); ?>"><img class="bookimg" src="<?php bloginfo('stylesheet_directory'); ?>/timthumb.php?src=<?php get_image_url(); ?>&amp;w=250&amp;zc=1" alt=""/></a>
-	<?php the_content('Read the rest of this entry &raquo;'); ?>
-	<div class="clear"></div>
-	<?php wp_link_pages(array('before' => '<p><strong>Pages: </strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
-</div>
 
 <div class="postmeta">
 		<span class="author">Posted by <?php the_author(); ?> </span> 
@@ -47,5 +49,4 @@
 
 </div>
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
