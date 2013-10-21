@@ -448,7 +448,7 @@ h6 {
 }
 
 #submenu li a:hover, #submenu li a:active, #submenu .current_page_item a {
-    color: #FDDDAA;
+    color: #d7d1cd;
 }
 
 #submenu li a.sf-with-ul {
